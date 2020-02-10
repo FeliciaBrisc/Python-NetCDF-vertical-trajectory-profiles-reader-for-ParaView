@@ -84,7 +84,7 @@ class PythonNetCDFProfilesReader(VTKPythonAlgorithmBase):
         self.nc_cell_variables  = []
         
         self.nc_dimensions = []
-        self.timesteps = None #that previous stuff 
+        self.timesteps = None 
   	
         self.timeStepsCount = 0
         #will be possibly used in the future to figure out wether the timesteps are played forward or backward
