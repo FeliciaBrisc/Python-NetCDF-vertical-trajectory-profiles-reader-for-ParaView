@@ -190,7 +190,7 @@ class PythonNetCDFProfilesReader(VTKPythonAlgorithmBase):
         self.heightCount = len(self.height.data)
         self.numPoints = self.timeStepsCount * self.heightCount
         
-        print("timeSteps: " , self.timeStepsCount) #!!!!!!!!!!!
+        print("timeSteps: " , self.timeStepsCount)
         print("heightCount:" , self.heightCount)
         print("numPoints: ", self.numPoints) 
         
